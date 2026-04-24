@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receba Jojo Macho - Wiki</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@400;700&display=swap');
+
+        /* Reset e Geral */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Bangers', cursive;
+            letter-spacing: 2px;
+            color: #f1c40f;
+            text-shadow: 3px 3px 0px #4b0082;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: #4b0082;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #f1c40f;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Banner Principal */
+        #hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images7.alphacoders.com/641/641324.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-bottom: 3px solid #4b0082;
+        }
+
+        #hero h2 { font-size: 3rem; }
+
+        /* Grid de Personagens */
+        #parts {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #parts h3 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        /* Estilo dos Cards */
+        .card {
+            background: #252525;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            border: 3px solid #4b0082;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            border-color: #f1c40f;
+        }
+
+        .card img {
+            width: 100%;
+            height: 320px;
+            object-fit: contain;
+            background: #111;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #000;
+            border-top: 4px solid #4b0082;
+            margin-top: 40px;
+        }
+
+        .menacing {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-family: 'Bangers';
+            font-size: 2.5rem;
+            color: rgba(241, 196, 15, 0.4);
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>JOJO'S BIZARRE ADVENTURE</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#parts">Personagens</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>KONO DIO DA!</h2>
+                <p>Explore a linhagem bizarra dos Joestars.</p>
+            </div>
+        </section>
+
+        <section id="parts">
+            <h3>OS PROTAGONISTAS</h3>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://static.jojowiki.com/images/thumb/3/34/latest/20200604060940/Jonathan_Infobox_Anime.png/400px-Jonathan_Infobox_Anime.png">
+                    <h4>Parte 1</h4>
+                    <p>Jonathan Joestar</p>
+                </div>
+                <div class="card">
+                    <img src="https://static.jojowiki.com/images/thumb/7/7d/latest/20210203004052/Joseph_Joestar_Anime.png/400px-Joseph_Joestar_Anime.png">
+                    <h4>Parte 2</h4>
+                    <p>Joseph Joestar</p>
+                </div>
+                <div class="card">
+                    <img src="https://static.jojowiki.com/images/thumb/2/2c/latest/20230221004141/Jotaro_Kujo_Anime.png/400px-Jotaro_Kujo_Anime.png">
+                    <h4>Parte 3</h4>
+                    <p>Jotaro Kujo</p>
+                </div>
+                <div class="card">
+                    <img src="https://static.jojowiki.com/images/thumb/0/00/latest/20201130222047/Josuke_DU_Infobox_Anime.png/400px-Josuke_DU_Infobox_Anime.png">
+                    <h4>Parte 4</h4>
+                    <p>Josuke Higashikata</p>
+                </div>
+                <div class="card">
+                    <img src="https://static.jojowiki.com/images/thumb/e/e5/latest/20201130223000/Giorno_Infobox_Anime.png/400px-Giorno_Infobox_Anime.png">
+                    <h4>Parte 5</h4>
+                    <p>Giorno Giovanna</p>
+                </div>
+                <div class="card">
+                    <img src="https://static.jojowiki.com/images/thumb/d/d2/latest/20211201083901/Jolyne_Anime_Infobox.png/400px-Jolyne_Anime_Infobox.png">
+                    <h4>Parte 6</h4>
+                    <p>Jolyne Cujoh</p>
+                </div>
+                <div class="card">
+                    <img src="https://static.jojowiki.com/images/thumb/a/a7/latest/20210113170756/Johnny_Joestar_Infobox.png/400px-Johnny_Joestar_Infobox.png">
+                    <h4>Parte 7</h4>
+                    <p>Johnny Joestar</p>
+                </div>
+                <div class="card">
+                    <img src="https://static.jojowiki.com/images/thumb/a/af/latest/20210214221759/Josuke_JoJolion_Infobox.png/400px-Josuke_JoJolion_Infobox.png">
+                    <h4>Parte 8</h4>
+                    <p>Josuke (Gappy)</p>
+                </div>
+                <div class="card">
+                    <img src="https://static.jojowiki.com/images/thumb/d/d3/latest/20230216174620/Jodio_Joestar_Infobox.png/400px-Jodio_Joestar_Infobox.png">
+                    <h4>Parte 9</h4>
+                    <p>Jodio Joestar</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="menacing">ゴゴゴゴ</div>
+
+    <footer>
+        <p>&copy; 2026 - Receba Jojo Macho Wiki</p>
+    </footer>
+
+</body>
+</html>
