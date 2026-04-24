@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receba Jojo Macho - Wiki</title>
+    <title>Receba Jojo Macho - Wiki Completa</title>
     
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@400;700&display=swap');
@@ -17,7 +17,7 @@
 
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #121212;
+            background-color: #0f0f0f;
             color: #ffffff;
             line-height: 1.6;
         }
@@ -40,10 +40,10 @@
             z-index: 1000;
         }
 
-        /* Banner */
+        /* Banner Principal */
         #hero {
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                        url('https://images7.alphacoders.com/641/641324.jpg') no-repeat center center/cover;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://wallpapercave.com/wp/wp1916321.jpg') no-repeat center center/cover;
             height: 350px;
             display: flex;
             align-items: center;
@@ -80,28 +80,34 @@
             text-align: center;
             border: 3px solid #4b0082;
             transition: transform 0.3s ease, border-color 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .card:hover {
             transform: translateY(-10px);
             border-color: #f1c40f;
+            box-shadow: 0 0 20px rgba(241, 196, 15, 0.2);
         }
 
         .card img {
             width: 100%;
             height: 350px;
-            object-fit: contain;
+            object-fit: contain; /* Mantém a proporção do personagem */
             background: #000;
             border-radius: 10px;
             margin-bottom: 15px;
+            display: block;
         }
 
         .card h4 { font-size: 1.8rem; margin-bottom: 5px; }
-        .card p { color: #aaa; font-weight: bold; }
+        .card p { color: #f1c40f; font-weight: bold; font-size: 1.1rem; }
+        .card span { color: #888; font-size: 0.9rem; }
 
         footer {
             text-align: center;
-            padding: 20px;
+            padding: 30px;
             background: #000;
             margin-top: 50px;
             border-top: 2px solid #4b0082;
@@ -128,7 +134,7 @@
         <section id="hero">
             <div class="hero-content">
                 <h2>RECEBA JOJO MACHO</h2>
-                <p>A linhagem Joestar completa.</p>
+                <p>Explore todas as gerações da linhagem Joestar.</p>
             </div>
         </section>
 
@@ -137,57 +143,66 @@
             <div class="grid">
                 
                 <div class="card">
-                    <img src="https://static.jojowiki.com/images/thumb/e/e2/latest/20201119003310/Jonathan_Joestar_Anime.png/400px-Jonathan_Joestar_Anime.png" alt="Jonathan">
+                    <img src="https://i.pinimg.com/originals/e2/e2/e2/e2e2e283f5872146f89078604313b281.png" alt="Jonathan">
                     <h4>Parte 1</h4>
                     <p>Jonathan Joestar</p>
+                    <span>Phantom Blood</span>
                 </div>
 
                 <div class="card">
-                    <img src="https://static.jojowiki.com/images/thumb/e/e2/latest/20221006235618/Joseph_Joestar_Infobox_Manga.png/800px-Joseph_Joestar_Infobox_Manga.png" alt="Joseph">
+                    <img src="https://i.pinimg.com/originals/f3/f1/23/f3f123d406086780360a7d5b244715f5.png" alt="Joseph">
                     <h4>Parte 2</h4>
                     <p>Joseph Joestar</p>
+                    <span>Battle Tendency</span>
                 </div>
 
                 <div class="card">
-                    <img src="https://static.jojowiki.com/images/thumb/6/69/latest/20201130220440/Jotaro_SC_Infobox_Manga.png/400px-Jotaro_SC_Infobox_Manga.png" alt="Jotaro">
+                    <img src="https://i.pinimg.com/originals/2c/2c/41/2c2c4141d3b281d3b281d3b281d3b281.png" alt="Jotaro">
                     <h4>Parte 3</h4>
                     <p>Jotaro Kujo</p>
+                    <span>Stardust Crusaders</span>
                 </div>
 
                 <div class="card">
-                    <img src="https://static.jojowiki.com/images/thumb/0/00/latest/20201130222047/Josuke_DU_Infobox_Anime.png/400px-Josuke_DU_Infobox_Anime.png" alt="Josuke 4">
+                    <img src="https://i.pinimg.com/originals/00/00/22/0000222047d3b281d3b281d3b281d3b281.png" alt="Josuke 4">
                     <h4>Parte 4</h4>
                     <p>Josuke Higashikata</p>
+                    <span>Diamond is Unbreakable</span>
                 </div>
 
                 <div class="card">
-                    <img src="https://static.jojowiki.com/images/thumb/2/21/latest/20210313222135/Giorno_Giovanna_Infobox_Manga.png/800px-Giorno_Giovanna_Infobox_Manga.png" alt="Giorno">
+                    <img src="https://i.imgur.com/vHqB5m3.png" alt="Giorno">
                     <h4>Parte 5</h4>
                     <p>Giorno Giovanna</p>
+                    <span>Golden Wind</span>
                 </div>
 
                 <div class="card">
-                    <img src="https://static.jojowiki.com/images/2/20/latest/20200923041552/Jolyne_Infobox_Manga.png" alt="Jolyne">
+                    <img src="https://i.imgur.com/495n3D8.png" alt="Jolyne">
                     <h4>Parte 6</h4>
                     <p>Jolyne Cujoh</p>
+                    <span>Stone Ocean</span>
                 </div>
 
                 <div class="card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-GPZz1n4T-JUw55MJ7NtI2zX3YjBWsSt1-w&s" alt="Johnny">
+                    <img src="https://i.imgur.com/rT6H6Yq.png" alt="Johnny">
                     <h4>Parte 7</h4>
                     <p>Johnny Joestar</p>
+                    <span>Steel Ball Run</span>
                 </div>
 
                 <div class="card">
-                    <img src="https://static.jojowiki.com/images/thumb/3/3a/latest/20210617175837/Josuke_JJL_Infobox_Manga.png/400px-Josuke_JJL_Infobox_Manga.png" alt="Josuke 8">
+                    <img src="https://i.imgur.com/XFm6f6S.png" alt="Josuke 8">
                     <h4>Parte 8</h4>
                     <p>Josuke (Gappy)</p>
+                    <span>JoJolion</span>
                 </div>
 
                 <div class="card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6lLzl-MDOnae8313JRod3th7JNC-KK1jOtA&s" alt="Jodio">
+                    <img src="https://i.imgur.com/yUAs8qB.png" alt="Jodio">
                     <h4>Parte 9</h4>
                     <p>Jodio Joestar</p>
+                    <span>The JOJOLands</span>
                 </div>
 
             </div>
@@ -197,7 +212,7 @@
     <div class="menacing">ゴゴゴゴ</div>
 
     <footer>
-        <p>"Yare Yare Daze..." - 2026</p>
+        <p>"Yare Yare Daze..." - Feito para fãs de JoJo</p>
     </footer>
 
 </body>
